@@ -6,10 +6,10 @@
         private readonly ITempSensor _tempSensor;
         private readonly IHeater _heater;
 
-        public ECS(int thr,IHeater heater, ITempSensor TempSensor)
+        public ECS(int thr,IHeater heater, ITempSensor tempSensor)
         {
             SetThreshold(thr);
-            _tempSensor = TempSensor;
+            _tempSensor = tempSensor;
             _heater = heater;
         }
 
