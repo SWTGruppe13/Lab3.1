@@ -1,6 +1,13 @@
 ﻿namespace ECS.Legacy
 {
-    public class Heater
+    interface IHeater
+    {
+        void TurnOn();
+        void TurnOff();
+        bool RunSelfTest();
+    }
+
+    public class Heater : IHeater
     {
         public void TurnOn()
         {

@@ -4,7 +4,7 @@ namespace ECS.Legacy
 {
     internal class TempSensor
     {
-        private Random gen = new Random();
+        readonly Random gen = new Random();
 
         public int GetTemp()
         {
