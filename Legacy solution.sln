@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESC.Test.Unit", "ESC.Test.Unit\ESC.Test.Unit.csproj", "{79816E24-8B3A-4C0A-AB64-2EC5C2EE89B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.Unit.Test.Substitute", "ECS.Unit.Test.Substitute\ECS.Unit.Test.Substitute.csproj", "{FDC67AE1-E509-4295-A182-F81F11861BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{79816E24-8B3A-4C0A-AB64-2EC5C2EE89B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79816E24-8B3A-4C0A-AB64-2EC5C2EE89B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79816E24-8B3A-4C0A-AB64-2EC5C2EE89B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC67AE1-E509-4295-A182-F81F11861BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC67AE1-E509-4295-A182-F81F11861BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC67AE1-E509-4295-A182-F81F11861BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC67AE1-E509-4295-A182-F81F11861BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

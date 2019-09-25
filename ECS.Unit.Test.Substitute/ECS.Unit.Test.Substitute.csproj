@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79816E24-8B3A-4C0A-AB64-2EC5C2EE89B0}</ProjectGuid>
+    <ProjectGuid>{FDC67AE1-E509-4295-A182-F81F11861BCF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ESC.Test.Unit</RootNamespace>
-    <AssemblyName>ESC.Test.Unit</AssemblyName>
+    <RootNamespace>ECS.Unit.Test.Substitute</RootNamespace>
+    <AssemblyName>ECS.Unit.Test.Substitute</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -57,7 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ECSTestUnit.cs" />
+    <Compile Include="ECSTestUnitSubstitute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
