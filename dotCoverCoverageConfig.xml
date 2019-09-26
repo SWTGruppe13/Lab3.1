@@ -19,6 +19,9 @@
         <ClassMask>*</ClassMask>
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
+      <FilterEntry>
+        <ClassMask>FakeTempSensor</ClassMask>
+      </FilterEntry>
     </ExcludeFilters>
   </Filters>
   <!-- Attribute filters. It's possible to use asterisks as wildcard symbols.
