@@ -20,7 +20,7 @@
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
       <FilterEntry>
-        <ModuleMask>ECS.Legacy</ModuleMask>
+        <ModuleMask>ECSLegacy</ModuleMask>
         <ClassMask>FakeTempSensor</ClassMask>
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
