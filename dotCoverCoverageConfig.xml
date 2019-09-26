@@ -20,7 +20,7 @@
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
       <FilterEntry>
-        <ClassMask>FakeTempSensor</ClassMask>
+        <ClassMask>FakeTempSensor*</ClassMask>
       </FilterEntry>
     </ExcludeFilters>
   </Filters>
