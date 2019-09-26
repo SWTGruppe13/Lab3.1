@@ -54,5 +54,12 @@ namespace ECS.Test.Unit.Substitute
             uut.Regulate();
             heater.Received(1).TurnOff();
         }
+
+        [Test]
+        public void Current_Threshold_Returns_20()
+        {
+            uut.SetThreshold(20);
+            Assert.That(uut.GetThreshold().Equals(20));
+        }
     }
 }
