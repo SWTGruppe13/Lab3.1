@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AnalyseParams>
   <TargetExecutable>C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe</TargetExecutable>
-  <TargetArguments>bin\Debug\ECS.Unit.Test.Substitue.dll --result:TestResult.xml</TargetArguments>
+  <TargetArguments>bin\Debug\ECS.Unit.Test.Substitute.dll --result:TestResult.xml</TargetArguments>
   <TargetWorkingDir>ECS.Unit.Test.Substitute</TargetWorkingDir>
   <TempDir><!-- Directory for the auxiliary files. Set to system temp by default. --></TempDir>
   <Output>coverage_report.html</Output>
