@@ -21,7 +21,7 @@
       </FilterEntry>
       <FilterEntry>
         <ModuleMask>ECS.Legacy</ModuleMask>
-        <ClassMask>Fake*</ClassMask>
+        <ClassMask>FakeTempSensor</ClassMask>
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
     </ExcludeFilters>
